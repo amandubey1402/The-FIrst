@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.root{
+    --navbar-height: 59px;
+}
+
+.navbar{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    right: 20px;
+    height: 160px;
+}
+
+#logo img{
+    border-radius: 100px;
+    height: 70px;
+    margin: 3px 6px;
+}
+
+#logo{
+    margin: 10px 30px;
+    height: 108px;
+}
+
+ul{
+    display: flex;
+    height: 70px;
+}
+
+.navbar ul li{
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: rgb(237, 232, 232);
+
+    display: block;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 3px 10px;
+}
+
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    background-color: white;
+
+}
+
+#home{
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#home::before{
+    content: "";
+    background: url("./photo/food.webp")no-repeat center center/cover;
+    position: absolute;
+    height: 63%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.h-primary{
+    margin-top: 100px;
+    font-size: 3.8rem;
+    padding: 20px;
+}
+
+#home h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+#home p{
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+
+#btn{
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: red;
+    background-color: cyan;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.primary-content{
+    margin: auto;
+    margin-top: 170px;
+    width: 100%;
+}
+
+#services .box img{
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+}
+
+#services p{
+    font-size: 10px;
+}
+
+#services{
+    height: 250;
+    width: 25%;
+    border: 2px solid red;
+    background-color: cyan;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+#services .box{
+    margin: 30px;
+}
+
+.text{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color:#65ff0f;
+}
+
+.para{
+    margin: 16px;
+    color: #ff00cb;
+
+}
+
+.primary-clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-clients img{
+    height: 74px;
+    position: relative;
+}
+
+.brand{
+    padding: 20px;
+    margin: 20px;
+}
+
+.contain::before{
+    content: "";
+    position: absolute;
+    height: 195px;
+    width: 100%;
+    z-index: -1;
+    background: url('./photo/health.jpg')no-repeat center center/cover;
+    opacity: 0.9;
+}
+
+.clients{
+    font-size: 35px;
+    color: white;
+}
+
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content: "";
+    background: url('./photo/contact.jpg')no-repeat center center/cover;
+    position: absolute;
+    bottom: 4px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+}
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+h1 center{
+    color:white;
+}
+.contact-box input,
+.contact-box textarea {
+    padding:4px 7px;
+    margin:5px;
+    height: 17px;
+    width: 375px;
+}
+.contact-box form{
+    font-size: 20px;
+    color: cyan;
+}
+#search{
+    padding: 12px 7px;
+    width: 389px;
+    height: 17px;
+}
+footer{
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 10px;
+    bottom: 4px;
+}

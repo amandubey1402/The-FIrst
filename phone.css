@@ -1,0 +1,259 @@
+body{
+    background-color: rgb(216, 210, 210);
+   
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -9px;
+    margin-top: -8px;
+    margin-right: -51px;
+    height: 53px;
+  }
+  
+
+.contain span{
+    font-size: 10px;
+    position: relative;
+    right: 44px;
+    top: -4px;
+}
+.color{
+    font-size: 10px;
+}
+ul li
+{
+    padding: 2px;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.us{
+    margin-left: -230px;
+    margin-top: 94px;
+}
+ul{
+    display: flex;
+    flex-direction: column-reverse  ;
+    margin-right: -200px;
+}
+.extra{
+    position: relative;
+    top: -21px;
+}
+#same{
+margin-left: -48px;
+}
+#differ{
+    margin-left: -4px;
+}
+#special{
+    background-color: white;
+    color: black;
+}
+.body::before{
+    content: "";
+    background: url("Group 3 2.png")no-repeat center center/cover;
+    position: absolute;
+    width: 95%;
+    height:31%;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+    .body {
+        margin-left: 0px; 
+        width: 392px; 
+        height: 245px;   
+    }
+.odd{
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 381px;
+    width: 90px;
+    position: relative;
+    top: 10px;
+}
+.as{
+    margin-left: -227px;
+    margin-top: -22px;
+}
+.web{
+    font-size: 16px;
+}
+.para{
+    font-size: 9px;
+    margin-top: 8px;
+    margin-left: 374px;
+}
+.para p{
+    margin-left: -39px;
+}
+.spy{
+    position: relative;
+    left: -14px;
+}
+.container{
+    position: relative;
+    top: 3px;
+    margin-left: 292px;
+}
+#facility{
+    margin-left: -10px;
+}
+.box a{
+        font-size: 12px;
+        margin-top: 110px;
+        margin-left: 370px;
+        padding: 3px;
+    }
+    .nxt{
+        font-size: 14px;
+    }
+    #miss{
+        font-size: 12px;
+        width: 321px;
+        margin-left: -156px;
+    }
+    .nxt p{
+        margin-left: -290px;
+font-size: 27px;
+    }
+   .manage{
+          margin-top: 35px;
+          position: relative;
+          left: -67px; 
+        width: 314px;   
+   }
+    .body2{
+        margin-top:-60px ;
+    }
+    .btn a{
+        margin-left: 240px;
+        width: 60px;
+        font-size: 12px;
+    }
+   .grid{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+   }
+#in{
+font-size: 12px;
+margin-left: -24px;
+width:395px;
+margin-top:-40px;
+}
+.about{
+    top: -242px;
+    left: 126px;
+}
+.danger {
+    position: relative;
+    top: 107px;
+    left: -327px;
+    width: 81px;
+    font-size: 12px
+}
+.patt{
+   display: grid;
+   margin-top: 168px;
+}
+#specie{
+    font-size: 30px;   
+    width: 220px;
+}
+#specie1,#specie3{
+visibility: hidden;}
+#specie2,#specie4{
+    margin-left: -54px;
+    width: 397px;
+    margin-top: -20px;
+    font-size: 12px;
+}
+.other{
+    margin-top: -50px;
+    margin-left: -1px;
+    width: 415px;
+    height: 180px;
+  }
+  .other p{
+    font-size: 12px;
+  }
+  #head{
+    font-size: 30px;
+  }
+  .free{
+    margin-left: -322px;
+    margin-top: -69px;
+    color: blue;
+    font-size: 12px;
+  }
+  .btn3{
+    margin-top: 0px;
+    font-size: 12px;
+  }
+  .phase{
+    margin-top: 100px;
+margin-left: 30px;
+font-size: 29px;
+  }
+  .imp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .tab{
+    background-color: orange;
+color: white;
+display: inline-block;
+margin-left: 51px;
+padding: 10px 56px;
+margin-top: 30px;
+font-size: 30px;
+  }
+  .resource{
+margin-top: 100px;
+  }
+  .resource b{
+    font-size: 30px;
+  }
+  .resource p{
+    font-size: 12px;
+    width: 400px;
+  }
+  .gess ol{
+    font-size: 12px;
+  }
+  .sf{
+    height: 187px;
+    padding: 65px 0px;
+    width: 410px;
+  }
+  .sf span{
+    color: cyan;
+font-size: 30px;
+position: relative;
+top: -19px;
+left: 112px;
+  }
+  .sf p{
+left: -73px;
+  }
+  .we p{
+    margin-left: 163px;
+top: 56px;
+  }
+footer{
+    margin-right: -8px;
+}
+.foot{
+    height: 100px;
+}
+.not{
+    margin-left: 125px;
+    position: relative;
+    top: 25px;
+}

@@ -1,0 +1,158 @@
+<html>
+<head></head>
+<title>My first web</title>
+<style>
+    body {
+       width: 100%;
+       height: 100%;
+        background: url('./design/')no-repeat center center/cover;
+    }
+
+    .left{
+       
+        position: absolute;
+        top: 10px;
+        display: inline-block;
+        right: 1000px;
+        color: azure;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .right {
+        /* border: 2px solid cyan; */
+        position: absolute;
+        left: 950px;
+        top: 10;
+        display: block;
+        color: blanchedalmond;
+        border: none;
+    }
+
+    .mid {
+        /* border: 3px solid red; */
+        width: 39%;
+        margin: 5px auto;
+        color: cyan;
+    }
+
+    .nav {
+        display: inline-block;
+        list-style: none;
+    }
+
+    .nav li {
+        float: left;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium',
+            'Arial Narrow', Arial, sans-serif;
+    }
+
+    .nav li a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .nav li a:hover,
+    .nav li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    img {
+        height: 70px;
+        width: 70px;
+        filter: invert(100%);
+        /* this is used to change
+         color of bg of the photo */
+        margin: auto 15px;
+    }
+
+    .btn {
+        background-color: black;
+        color: white;
+        padding: 2px 4px;
+        margin: 4px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .contain {
+        /* border: 2px solid white; */
+        width: 550px;
+        height: 500px;
+        position: relative;
+        top: 40px;
+        left: 550px;
+        color: white;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    #btn {
+        width: 300px;
+    }
+
+    #train {
+        width: 300px;
+    }
+
+    #btn2 {
+        width: 300px;
+        
+    }
+
+    img {
+        border-radius: 100px;
+        width: 80px;
+        height: 90;
+    }
+</style>
+
+<body>
+    <a href="body.css"></a>
+    <div class="left">
+        <img src="./photo/download.jpg" alt="ERROR">
+        <div><b>MODIFY</b></div>
+    </div>
+    <div class="mid">
+        <ul class="nav">
+            <li><a href="https://www.youtube.com" class="active">HOME</a></li>
+            <li><a href="https://www.google.com">HELP</a></li>
+            <li><a href="https://www.facebook.com">COMMENTS</a></li>
+            <li><a href="https://www.instagram.com">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="btn">REVIEW</button>
+        <button class="btn">Email US</button>
+
+    </div>
+    <div class="contain">
+        <h2>Let Join Us</h2>
+            <label for="NAME">ENTER YOUR FULL NAME</label>
+            <input type="text" id="NAME"><br><br>
+            <label for="AGE">AGE</label>
+            <input type="text" id="AGE"><br><br>
+            DOB
+            <input type="Date"><br><br>
+            Gender: <input type="radio" NAME="gender">Male
+            <input type="radio" NAME="gender">Female<br></br>
+           <label for="train">Training</label>
+            <select value="Training" id="train">
+                    <option value="1">Cardio</option>
+                    <option value="2">Strength</option>
+                    <option value="3">Stretches</option>
+                </select>
+            <p><input type="button" id="btn" value='submit'></p>
+            <p><input type="reset" id="btn2"></p>
+    </div>
+
+</body>
+</html>
