@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+.no{
+    position: relative;
+    top: 108px;
+}
+ nav h2{
+    color: white;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+nav{
+    position: fixed;
+    top: -10px;
+    height: 80px;
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+ul{
+    display: flex;
+    margin-top: 23px;
+    margin-left: 20px;
+}
+li{
+    padding: 8px 12px;
+   list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: 1s;
+    background-color: cyan;
+} 
+li a:hover::after{
+    width: 100%;
+}
+.in{
+    padding:8px 10px;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+.btn{
+    border-radius: 5px;
+    border: 2px solid orange;
+    background-color: black;
+    color: orange;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.in input{
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.main-body{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 700px;
+}
+.contain{
+    margin-left: 1px;
+    text-align: center;
+}
+.contain h4:hover{
+    text-decoration: 2px underline;
+}
+.contain p:hover{
+    text-decoration: underline;
+}
+#covid img{
+    height: 37%;
+    width: 90%;
+    padding: 10px;
+}
+#buton{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: hotpink   ;}
+.contain p{
+    margin-top: 10px;
+}
+#read{
+    display: none;
+}
+#time{
+    margin-top: 90px;
+    margin-left: 40px   ;
+    color: black;
+}
+#tim{
+    color: rgb(30, 30, 31);
+    margin-top: -18px;
+    margin-left: 40px;
+}
+#cricket img{
+    padding: 10px;
+    height: 50%;
+    width: 90%;
+}
+
+#buto{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: hotpink   ;
+}
+#re{
+    display: none;
+}
+#sea img{
+    padding: 10px;
+    height: 40%;
+    width: 80%;
+}
+#butto{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: hotpink   ;
+}
+#rea{
+    display: none;
+}
+#construct img{
+    padding: 10px;
+    height: 55%;
+    width: 90%;
+}
+#buten{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: hotpink   ;
+}
+#rio{
+
+    display: none;
+}
+.business h1{
+    margin: auto;
+    width: 8%;
+    margin-top: 20px;
+}
+.p{
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    width: 200px;
+}
+.p p{
+    margin-top: 40px;
+    margin-left: 5px;
+    text-align: center;
+}
+.p p:hover{
+    text-decoration: 2px underline;
+}
+.p p img{
+    display: grid;
+    height: 130px;
+    width: 170px;
+    margin-left: 10px;
+    justify-content: center;
+}
+.p p marquee{
+    color: red;
+}
+.para{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 450px 450px 450px;
+    margin-left: 220px;
+    margin-top: -1165px;
+}
+.para img{
+    display: grid;
+    height: 200px;
+    width: 250px;
+   margin-left: 20px;
+   padding: 10px 0px;   
+}
+.para p{
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+.sports h1{
+    text-align: center;
+}

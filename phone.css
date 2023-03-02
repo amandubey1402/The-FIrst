@@ -36,8 +36,7 @@ ul li
 }
 ul{
     display: flex;
-    flex-direction: column-reverse  ;
-    margin-right: -200px;
+        margin-right: -300px;
 }
 .extra{
     position: relative;
@@ -49,13 +48,12 @@ margin-left: -48px;
 #differ{
     margin-left: -4px;
 }
-#special{
-    background-color: white;
-    color: black;
+#special a{
+    padding: 3px;
 }
 .body::before{
     content: "";
-    background: url("Group 3 2.png")no-repeat center center/cover;
+    background: url("./photo/Group 3 2.png")no-repeat center center/cover;
     position: absolute;
     width: 95%;
     height:31%;
@@ -66,7 +64,8 @@ margin-left: -48px;
     .body {
         margin-left: 0px; 
         width: 392px; 
-        height: 245px;   
+        height: 245px;  
+        margin-top: 30px; 
     }
 .odd{
     font-size: 10px;
@@ -98,14 +97,14 @@ margin-left: -48px;
 .container{
     position: relative;
     top: 3px;
-    margin-left: 292px;
+    margin-left: 278px;
 }
 #facility{
     margin-left: -10px;
 }
 .box a{
         font-size: 12px;
-        margin-top: 110px;
+        margin-top: -200px;
         margin-left: 370px;
         padding: 3px;
     }
@@ -113,27 +112,27 @@ margin-left: -48px;
         font-size: 14px;
     }
     #miss{
-        font-size: 12px;
+        font-size: 9px;
         width: 321px;
-        margin-left: -156px;
+        margin-left: -204px;
     }
     .nxt p{
         margin-left: -290px;
-font-size: 27px;
+font-size: 15px;
     }
    .manage{
           margin-top: 35px;
           position: relative;
-          left: -67px; 
+          left: -37px; 
         width: 314px;   
    }
     .body2{
         margin-top:-60px ;
     }
     .btn a{
-        margin-left: 240px;
+        margin-left: 204px;
         width: 60px;
-        font-size: 12px;
+        font-size: 9px;
     }
    .grid{
     display: flex;
@@ -148,7 +147,8 @@ margin-top:-40px;
 }
 .about{
     top: -242px;
-    left: 126px;
+    left: 140px;
+    font-size: 18px;
 }
 .danger {
     position: relative;
@@ -156,6 +156,10 @@ margin-top:-40px;
     left: -327px;
     width: 81px;
     font-size: 12px
+}
+.item1{
+    height: 350px;
+    width: 350px;
 }
 .patt{
    display: grid;
@@ -166,7 +170,7 @@ margin-top:-40px;
     width: 220px;
 }
 #specie1,#specie3{
-visibility: hidden;}
+display: none;}
 #specie2,#specie4{
     margin-left: -54px;
     width: 397px;
@@ -205,6 +209,10 @@ font-size: 29px;
     flex-direction: column;
     margin-left: 10px;
   }
+  .imp img{
+    height: 190px;
+    width: 220px;
+  }
   .tab{
     background-color: orange;
 color: white;
@@ -228,7 +236,7 @@ margin-top: 100px;
     font-size: 12px;
   }
   .sf{
-    height: 187px;
+    height: 0px;
     padding: 65px 0px;
     width: 410px;
   }
@@ -238,9 +246,12 @@ font-size: 30px;
 position: relative;
 top: -19px;
 left: 112px;
+display: inline;
   }
   .sf p{
-left: -73px;
+    position: relative;
+    top: -40px;
+left: 102px;
   }
   .we p{
     margin-left: 163px;

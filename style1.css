@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(214, 212, 212);
+    background-color:rgb(245, 243, 243);
 }
 
 header {
@@ -7,7 +7,7 @@ header {
     height: 130px;
     margin-top: -8px;
     margin-left: -8px;
-    margin-right: -132px;
+    margin-right: -168px;
 }
 
 ul {
@@ -15,14 +15,27 @@ ul {
     display: flex;
     float: right;
     position: relative;
-    top: -68px;
+    top: -54px;
+    left: -161px;
 }
 
 ul li {
-    padding: 18px;
-    font-size: 17px;
+    font-size: 14px;
+    padding: 0px 16px;
 }
-
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+li a{
+    transition:all 0.5s linear;
+}
+li a:hover{
+    color: orange;
+}
+#special a:hover{
+ background-color: rgb(229, 173, 31);
+}
 .contain span {
     position: relative;
     top: 19px;
@@ -44,9 +57,11 @@ ul li {
     top: 10px;
 }
 
-#special {
+#special a{
     background-color: orange;
     color: aliceblue;
+    padding: 8px;
+    margin-top: -18px;
 }
 
 #differ {
@@ -58,25 +73,24 @@ ul li {
 }
 
 .body {
-    height:604px;
-    background-color: white;
-    margin-top: 30px;
-    margin-left: 187px; 
-    width: 869px; 
+    height: 604px;
+    margin-top: -44px;
+    margin-left: 9px;
 }
-.body::before{
+
+.body::before {
     content: "";
     background: url("./photo/Group 3 2.png")no-repeat center center/cover;
     position: absolute;
-    width: 69%;
-    height:103%;
+    width: 1100px;
+    height: 760px;
     z-index: 1;
 }
 
 .odd {
     width: 300px;
     font-size: 26px;
-    margin-left: 480px;
+    margin-left: 486px;
     margin-top: 100px;
     position: relative;
     top: 21px;
@@ -85,7 +99,7 @@ ul li {
 .web {
     font-size: 30px;
     position: relative;
-    left: 48px;
+    left: 61px;
     margin: 11px;
 }
 
@@ -124,258 +138,294 @@ ul li {
     color: blue;
     margin-top: 300px;
     z-index: 2;
+    top: 478px;
 }
 
 .box a {
     text-decoration: none;
-    }
-.box a:hover,.box:hover{
-    cursor:pointer;
+}
+
+.box a:hover,
+.box:hover {
+    cursor: pointer;
     color: orange;
     background-color: cyan;
 }
-.nxt{
+
+.nxt {
     font-size: 40px;
-     margin-left: 477px;
-     margin-top:100px ;
+    margin-left: 477px;
+    margin-top: 100px;
 }
-.manage{
+
+.manage {
     position: relative;
     left: -81px;
-  top: -37px;
+    top: -37px;
+    width: 465px;
+
 }
-#miss{
-    padding:0px 280px;
+
+#miss {
+    padding: 0px 280px;
     width: 760px;
     margin-top: -35px;
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
     display: block;
     margin: auto;
     width: 8%;
     margin-left: 555px;
 }
-.body2{
+
+.body2 {
     width: 100%;
-    margin-left: -81px;
-margin-right: -8px; 
-margin-top: -16px   ;
+    margin-left: -130px;
+    margin-right: -8px;
+    margin-top: 250px;
 }
-.as{
-    margin-left:-176px;
+
+.as {
+    margin-left: -27px;
 }
-.grid{
+
+.grid {
     height: 200px;
     margin-top: 100px;
-    display:grid ;
-    grid-template-columns:1fr 2fr;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: -14px;
 }
-.item p{
+
+.item p {
     margin-left: 100px;
 }
-.item1{
-    margin:23px;
-    width: 360px;
-    height: 230px;
+
+.item1 {
+    margin: 23px;
+    width: 513px;
+    height: 256px;
 }
-#in{
-position: relative;
-    width: 600px;
-    left: 35px;
-    top: 40px;
+
+#in {
+    position: relative;
+    width: 520px;
+    left: -8px;
+    top: 74px;
 }
-.inside{
-    position:absolute;
+
+.inside {
+    position: absolute;
     bottom: 0px;
 }
-.danger{
-    margin-top: -25px;
-    margin-left: 341px;
-    color: rgb(34, 114, 227);
-    display: inline-block;
-
-}
-.about
-{
+.about {
     position: relative;
-    bottom: 194px;
-left: 458px;
-font-size: 30px;
-display: inline-block;
+    bottom: 158px;
+    left: 557px;
+    font-size: 30px;
+    display: inline-block;
 }
-.patt{
+
+.patt {
     position: relative;
     margin: 30px;
     display: grid;
     margin-top: 180px;
-    grid-template-columns:264px 1fr  ;
-    grid-template-rows:1fr 2fr ;
-    margin-left:58px ;
+    grid-template-columns: 264px 1fr;
+    grid-template-rows: 1fr 2fr;
+    margin-left: -10px;
     margin-right: -6px;
-
+    background-color: white;
 }
-.series{
+
+.series {
     display: grid;
     margin-top: 11px;
     margin: 14px;
 }
-#specie{
+
+#specie {
     width: 277px;
     font-size: 39px;
 }
-#specie2{
+
+#specie2 {
     width: 419px;
     height: 88px;
 }
-#specie1{
+
+#specie1 {
     width: 500px;
     position: relative;
     top: 129px;
     margin-left: 256px;
 
 }
-#specie3{
+
+#specie3 {
     height: 78px;
-width: 531px;
-margin-top: 149px;
-margin-left: 250px;
+    width: 531px;
+    margin-top: 149px;
+    margin-left: 250px;
 }
-#specie4{
+
+#specie4 {
     position: relative;
     top: -122px;
     width: 414px;
 }
-.free{
+
+.free {
     margin-left: 263px;
     margin-top: 46px;
     color: blue;
 }
-#head{
-    font-size: 35px;
-    position: relative;
-    top: 17px;
+.free:hover{
+    color: black;
+    text-decoration: underline;
+
+    transition: all 0.5s linear;
 }
-.other{
-    margin-top: 150px;
-    margin-left: 100px;
-    width: 650px;
-    height: 180px;
-}
-.btn3{
-    margin-top: 40px;
-    color: blue;
-}
-.phase{
-    font-size: 27px;
+.phase {
+    font-size: 33px;
     margin-top: 100px;
-    margin-left: 100px;
-}.imp{
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 400px 400px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
-.imp img{
-    height: 310px;
-    width:210px;
-    margin-left: 50px;
+#do-it {
+    margin-left:964px;
+    padding: 13px 25px;
+    position: relative;
+    top: -48px;
+    color: orange;
+    border: 2px solid orange;
+    background-color:rgb(245, 243, 243);
 }
-.item{
-    background-color: white; 
-    margin: 5px;
+#do-it{
+    transition: all 0.5s linear;
 }
-.tab{
+#do-it:hover
+{
+    cursor: pointer;
     background-color: orange;
     color: white;
-    display: inline-block;
-    margin-left: 468px;
-    padding: 10px 56px;
-    margin-top: 30px;
 }
-.tab:hover{
-    color: orange;
-    background-color: chartreuse;
+.imp {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 400px 400px;
+    margin-left: 0px;
+    margin-top: 36px;
 }
-.resource b{
+
+.imp img {
+    height: 310px;
+    width: 210px;
+    margin-left: 50px;
+}
+
+.item {
+    background-color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+.item p,.item a{
+    text-decoration: none;
+    color: black;
+}
+.item:hover p {
+color: red;
+}
+.resource b {
     font-size: 44px;
 }
-.resource{
-width: 744px;
-margin-left: 10px;
-margin-top: 250px;
-}
-.resource p{
-    font-size: 18px;
-}
-.gess ol{
+
+.resource {
+    width: 744px;
     margin-left: 10px;
-    margin-top:50px;
+    margin-top: 250px;
+}
+.gess ol {
+    margin-left: 10px;
+    margin-top: 50px;
     font-size: 17px;
 }
-.gess ol li{
-          padding: 20px;
+
+.gess ol li {
+    padding: 20px;
 }
-.gess ol li p{
-margin-top: 5px;    
+
+.gess ol li p {
+    margin-top: 5px;
 }
-.sf{
+
+.sf {
     height: 139px;
     background-color: black;
-    padding: 14px 34px;
+    padding: 0px 34px;
     margin-left: -8px;
-    margin-right: -131px;
+    margin-right: -171px;
 }
-.sf span{
-    color: cyan;
-    margin-left: -17px;
-    font-size: 30px;
-    padding: 30px;
-    position: relative;
-    top: 30px;
-}
-.sf p{
-    display: inline-block;
-    color: white;
-    width: 163px;
-    position: relative;
-    bottom: -46px;
-    left: 15px;
-    
-}
-.we p{
+
+    .sf span {
+        color: cyan;
+        font-size: 30px;
+        position: relative;
+        top: 30px;
+        display: block;
+        margin: auto;
+        width: 34%;
+    }
+
+    .sf p {
+        display: block;
+        color: white;
+        width: 395px;
+        margin: auto;
+        margin-top: 23px;
+    }
+
+.we p {
     color: cyan;
     font-size: 30px;
     margin-left: 950px;
     position: relative;
     top: -47px;
 }
-.foot p{
-   font-size: 22px;
-   margin-left: 10px;
+
+.foot p {
+    font-size: 22px;
+    margin-left: 10px;
 }
-footer{
+
+footer {
     margin-left: -17px;
     margin-top: -20px;
-    margin-right: -131px;
+    margin-right: -171px;
 }
-.foot{
+
+.foot {
     background-color: white;
     margin-top: 20px;
-   margin-left: 10px;
+    margin-left: 10px;
 }
-.foot span{
+
+.foot span {
     position: relative;
     top: -27px;
 }
- #cult{
+
+#cult {
     color: orange;
     margin-left: 10px;
 }
-#why{
+
+#why {
     color: cyan;
     margin-left: 10px;
 }
-.every{
+
+.every {
     font-family: Arial, Helvetica, sans-serif;
 }

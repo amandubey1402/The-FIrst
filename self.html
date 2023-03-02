@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OWN</title>
+</head>
+<style>
+    * {
+        margin-top: 0px;
+        padding: 0px;
+        margin-left: 0;
+    }
+
+    .container {
+        display: flex;
+        background-color: white;
+        box-shadow: 0px 6px 16px black;
+        height: 100px;
+        width: 100%;
+        position: fixed;
+    }
+
+    .logo {
+        margin-top: 15px;
+    }
+    .logo img{
+        height:70px;
+        width: 110px;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    li {
+        margin: 0px 15px;
+    }
+
+    li:hover {
+        cursor: pointer;
+    }
+    ul li::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    display: block;
+    background-color: orange;
+    margin: auto;
+    transition: 1s;
+}
+
+ul li:hover::after {
+    width:100%;
+}
+
+    input {
+        margin-top: 25px;
+        width: 220px;
+        height: 30px;
+        padding:0 5px;
+    }
+    button{
+        height: 25px;
+        margin-top: 30px;
+        margin-left:20px;
+        padding: 0px 10px;
+        font-size: 17px;
+    }
+    .navbar{
+        position: absolute;
+        right: 7px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="./photo/myntra-removebg-preview.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+                <li>HELP</li>
+            </ul>
+        </nav>
+        <input type="search" class="home" placeholder="search your brand and product ">
+        <button>search
+        </button>
+        <nav>
+            <ul class="navbar">
+                <li>PROFILE</li>
+                <li>BLOG</li>
+                <li>REGISTER</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-body">
+        
+    </div>
+</body>
+
+</html>
